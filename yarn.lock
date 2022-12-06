@@ -2213,13 +2213,14 @@
     "@embroider/shared-internals" "^0.50.2"
     semver "^7.3.5"
 
-"@embroider/addon-shim@^1.5.0":
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/@embroider/addon-shim/-/addon-shim-1.8.3.tgz#2368510b8ce42d50d02cb3289c32e260dfa34bd9"
-  integrity sha512-7pyHwzT6ESXc3nZsB8rfnirLkUhQWdvj6CkYH+0MUPN74mX4rslf7pnBqZE/KZkW3uBIaBYvU8fxi0hcKC/Paw==
+"@embroider/addon-shim@^1.5.0", "@embroider/addon-shim@^1.8.3":
+  version "1.8.4"
+  resolved "https://registry.yarnpkg.com/@embroider/addon-shim/-/addon-shim-1.8.4.tgz#0e7f32c5506bf0f3eb0840506e31c36c7053763c"
+  integrity sha512-sFhfWC0vI18KxVenmswQ/ShIvBg4juL8ubI+Q3NTSdkCTeaPQ/DIOUF6oR5DCQ8eO/TkIaw+kdG3FkTY6yNJqA==
   dependencies:
-    "@embroider/shared-internals" "^1.8.3"
-    semver "^7.3.5"
+    "@embroider/shared-internals" "^2.0.0"
+    broccoli-funnel "^3.0.8"
+    semver "^7.3.8"
 
 "@embroider/core@0.29.0":
   version "0.29.0"
@@ -2336,7 +2337,7 @@
     semver "^7.3.5"
     typescript-memoize "^1.0.1"
 
-"@embroider/shared-internals@1.8.3", "@embroider/shared-internals@^1.0.0", "@embroider/shared-internals@^1.8.3":
+"@embroider/shared-internals@1.8.3", "@embroider/shared-internals@^1.0.0":
   version "1.8.3"
   resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-1.8.3.tgz#52d868dc80016e9fe983552c0e516f437bf9b9f9"
   integrity sha512-N5Gho6Qk8z5u+mxLCcMYAoQMbN4MmH+z2jXwQHVs859bxuZTxwF6kKtsybDAASCtd2YGxEmzcc1Ja/wM28824w==
@@ -2358,6 +2359,20 @@
     babel-import-util "^1.1.0"
     ember-rfc176-data "^0.3.17"
     fs-extra "^9.1.0"
+    lodash "^4.17.21"
+    resolve-package-path "^4.0.1"
+    semver "^7.3.5"
+    typescript-memoize "^1.0.1"
+
+"@embroider/shared-internals@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-2.0.0.tgz#d8205ec6944362aeecfbb51143db352430ced316"
+  integrity sha512-qZ2/xky9mWm5YC6noOa6AiAwgISEQ78YTZNv4SNu2PFgEK/H+Ha/3ddngzGSsnXkVnIHZyxIBzhxETonQYHY9g==
+  dependencies:
+    babel-import-util "^1.1.0"
+    ember-rfc176-data "^0.3.17"
+    fs-extra "^9.1.0"
+    js-string-escape "^1.0.1"
     lodash "^4.17.21"
     resolve-package-path "^4.0.1"
     semver "^7.3.5"
@@ -11764,12 +11779,13 @@ ember-could-get-used-to-this@1.0.1:
     ember-cli-babel "^7.22.1"
     ember-cli-htmlbars "^4.2.0"
 
-ember-css-transitions@4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/ember-css-transitions/-/ember-css-transitions-4.2.0.tgz#f1e21bef3438fd74997363a94404b077b5b8a3a5"
-  integrity sha512-qvpTyP3BjfFhxWuIhIy/rBOZ2Wb/UOzCf5CWZ6turkR7qq1ouR5KyA2FyaetQdCssb2JqnovLvHmWI6K0AbF9g==
+ember-css-transitions@4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/ember-css-transitions/-/ember-css-transitions-4.3.2.tgz#191addddd7eb691ff5a4f2a08df97210bf835654"
+  integrity sha512-2VsGZEM00rhko3VYaHaFs82kvCkBMDF7rv4Z4Wplef/O0PSe0ezPFbD9cveR+9R+7PXw5BI25sbNqyrinkhw4A==
   dependencies:
-    "@embroider/addon-shim" "^1.5.0"
+    "@ember/test-waiters" "^3.0.0"
+    "@embroider/addon-shim" "^1.8.3"
     ember-modifier "^2.1.2 || ^3.1.0 || ^4.0.0"
 
 ember-data@3.24.0:
